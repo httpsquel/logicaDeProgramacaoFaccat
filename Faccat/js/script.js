@@ -15,7 +15,7 @@ function Ex6() {
     let altura = parseInt(prompt("Digite a altura: "));
     let area;
 
-    area = (base * altura) / 2;
+    area = base * altura;
 
     alert(`A área desse triângulo é ${area}`);
 }
