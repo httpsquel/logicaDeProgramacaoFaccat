@@ -42,9 +42,9 @@ function Ex8() {
     let totalEleitores = parseInt(prompt("Quantos eleitores o município teve?"));
     let votosBranco = parseInt(prompt("Quantos desses votos foram brancos? "));
     let votosNulo = parseInt(prompt("Quantos desses votos foram nulos? "));
-    let votosValidos, percentB, percentN, percentV;
+    let votosValidos = parseInt(prompt("Quantos desses votos foram válidos? "));
+    let percentB, percentN, percentV;
 
-    votosValidos = totalEleitores - votosBranco - votosNulo;
 
     percentB = (votosBranco / totalEleitores) * 100;
     percentN = (votosNulo / totalEleitores) * 100;
